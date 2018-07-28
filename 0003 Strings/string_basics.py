@@ -81,3 +81,8 @@ for index in range(0, len(language)):
 # String slicing is also supported
 favorite_movie = "3 Idiots"
 print(favorite_movie[2:len(favorite_movie)])
+
+# Python strings cannot be changed
+favorite_song = "Kya Mausam Aya Hai"
+# favorite_song[1] = "J" => If enabled will throw TypeError: 'str' object does not support item assignment
+print(favorite_song)
