@@ -72,3 +72,8 @@ for a_letter in language:
     sys.stdout.write(a_letter)
     print()
 
+print("==================================================")
+
+# Indices may also be negative numbers, to start counting from the right:
+for index in range(0, len(language)):
+    print(language[-(index+1)])
