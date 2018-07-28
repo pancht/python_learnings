@@ -86,3 +86,5 @@ print(favorite_movie[2:len(favorite_movie)])
 favorite_song = "Kya Mausam Aya Hai"
 # favorite_song[1] = "J" => If enabled will throw TypeError: 'str' object does not support item assignment
 print(favorite_song)
+
+
