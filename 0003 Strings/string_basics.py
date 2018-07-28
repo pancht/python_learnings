@@ -65,3 +65,10 @@ for counter in range(1, 10):
 # Two or more string literals (i.e. the ones enclosed between quotes) next to each other are automatically concatenated.
 automatic_string_concatenation = "Er." "Panchdev Chauhan"
 print(automatic_string_concatenation)
+
+# Strings can be indexed (subscripted), with the first character having index 0
+language = "Python 3.7"
+for a_letter in language:
+    sys.stdout.write(a_letter)
+    print()
+
