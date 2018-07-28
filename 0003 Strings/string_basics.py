@@ -62,3 +62,6 @@ for counter in range(1, 10):
     print("*" * (((counter-1) * 2) + 1))
 
 
+# Two or more string literals (i.e. the ones enclosed between quotes) next to each other are automatically concatenated.
+automatic_string_concatenation = "Er." "Panchdev Chauhan"
+print(automatic_string_concatenation)
