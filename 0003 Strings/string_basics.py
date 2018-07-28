@@ -77,3 +77,7 @@ print("==================================================")
 # Indices may also be negative numbers, to start counting from the right:
 for index in range(0, len(language)):
     print(language[-(index+1)])
+
+# String slicing is also supported
+favorite_movie = "3 Idiots"
+print(favorite_movie[2:len(favorite_movie)])
