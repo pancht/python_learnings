@@ -109,6 +109,12 @@ print("Apple Is Red".lower())  # => apple is red
 # str.lstrip([chars])
 print("|" + "    Line with left and right space   ".lstrip() + "|")  # => |Line with left and right space   |
 
+# str.partition(sep)
+part_before_sep, sep, part_after_sep = "I am Panchdev Chauhan. Who are You, man?".partition("You")
+print( part_before_sep)  # => I am Panchdev Chauhan. Who are
+print(sep)  # => You
+print(part_after_sep)  # => , man?
+
 
 
 
