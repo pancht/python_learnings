@@ -31,3 +31,6 @@ This is second line.
 This is third line.
 """.find("Apple",20,100))  # Will return -1 as Apple is not present in Text
 
+# in Operator
+print( "Apple" in "An Apple a day keeps the doctor away") # Returns True
+
