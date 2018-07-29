@@ -11,6 +11,8 @@ print("Panchdev Chauhan".center(20,"=")) # OUTPUT => ==Panchdev Chauhan==
 # str.count(sub[, start[, end]])
 print("I am Panchdev Chauhan. I am an Engineer.".count("a",0,50))
 
-
+# str.endswith(suffix[, start[, end]])
+print("To err is human nature.".endswith("."))
+print("To err is human nature.".endswith(".",7))
 
 
