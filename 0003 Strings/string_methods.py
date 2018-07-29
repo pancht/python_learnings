@@ -15,4 +15,7 @@ print("I am Panchdev Chauhan. I am an Engineer.".count("a",0,50))
 print("To err is human nature.".endswith("."))
 print("To err is human nature.".endswith(".",7))
 
+# str.expandtabs(tabsize=8)
+print("Sr. No.\tName\tSurname\tAddress\tPhone\tMobile".expandtabs(10))
+
 
