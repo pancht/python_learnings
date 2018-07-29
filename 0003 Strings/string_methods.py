@@ -48,3 +48,9 @@ print(
     "An Apple a day keeps the doctor away".index("a", 10,100
                                                  )
 )
+
+# str.isalnum()
+print("1a".isalnum())  # True
+print("1".isalnum())  # True
+
+
