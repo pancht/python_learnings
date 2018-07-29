@@ -34,3 +34,8 @@ This is third line.
 # in Operator
 print( "Apple" in "An Apple a day keeps the doctor away") # Returns True
 
+# str.format(*args, **kwargs)
+print(
+    "An {0} a day keeps the {1} away.".format("Apple", "doctor")
+) # OUTPUT => An Apple a day keeps the doctor away.
+
