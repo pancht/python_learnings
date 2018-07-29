@@ -39,3 +39,12 @@ print(
     "An {0} a day keeps the {1} away.".format("Apple", "doctor")
 ) # OUTPUT => An Apple a day keeps the doctor away.
 
+# str.index(sub[, start[, end]])
+print(
+    "An Apple a day keeps the doctor away".index("a")
+)
+
+print(
+    "An Apple a day keeps the doctor away".index("a", 10,100
+                                                 )
+)
