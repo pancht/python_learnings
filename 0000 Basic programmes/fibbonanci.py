@@ -2,7 +2,7 @@
 # the sum of two elements defines the next
 
 a, b = 0, 1
-while a< 100:
+while a < 100:
     # import sys
     # sys.stdout.write(str(a )+ " ")
     print(str(a) , end=" ,") # Better then using sys
